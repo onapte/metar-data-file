@@ -1,9 +1,11 @@
-//document.addEventListener('DOMContentLoaded', getMetarData())
-function greet() {
-    document.querySelector('.metar-codes').innerHTML += "hello ";
-}
+document.addEventListener('DOMContentLoaded', function() {
+    extractFile();
+})
+//function greet() {
+//    document.querySelector('.metar-codes').innerHTML += "hello ";
+//}
 
-setInterval(function(){extractFile();}, 1000);
+//setInterval(function(){extractFile();}, 1000);
 
 
 async function extractFile() {
