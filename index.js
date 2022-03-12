@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
-    extractFile();
-})
+//document.addEventListener('DOMContentLoaded', function() {
+extractFile();
+//})
 //function greet() {
 //    document.querySelector('.metar-codes').innerHTML += "hello ";
 //}
